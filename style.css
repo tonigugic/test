@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-family: Verdana;
+  background-color: #ddd;
+  color: #f00;
+  padding: .5em 0;
+  margin-bottom: .7em;
+}
+
+.list-wrapper{
+  width: 95%;
+  max-width: 1260px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+ .list {
+  list-style-type: none;
+  font-family: sans-serif;
+}
+.list li {
+  padding: .5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.list li:nth-child(odd) {
+  background-color: #eee;
+}
+
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: .5em;
+}
